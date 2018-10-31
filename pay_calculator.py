@@ -1,0 +1,5 @@
+hours = input("How many hours did you work this week?")
+# print(type(hours))
+rate = input("What is your hourly rate?")
+pay = float(hours) * float(rate)
+print("your gross pay this week is $" + str(pay))
